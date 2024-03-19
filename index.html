@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="./style.css">   
+    <meta name="description" content="Producciones fotográficas con fotógrafa profesional. ¡Consultá por tu proyecto!">
+    <meta mame="keywords" content="Fotografía, fotógrafa, fotógrafo, book, producción, producciones, proyecto">
+    <meta property='og=url' content= "file:///D:/coderhouse/Dise%C3%B1ador%20Web/INSTALANDOSCSS/index.html">
+    <meta property='og=image' content= "file:///D:/coderhouse/Dise%C3%B1ador%20Web/INSTALANDOSCSS/img/MARAROSSET_LOGOBLANCO.png">
+    <meta property='og=description' content= "Producciones fotográficas con fotógrafa profesional. ¡Consultá por tu proyecto!">
+
+</head>
+<body class="servicios__background">  <!--Imagen de fondo en toda la página-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light contenedor__nav">
+            <div class="container-fluid">
+                <a href="./index.html"><img src="./img/logoer.png" alt="logoer" class="logo__size"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse show justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link nav__li__estilo h5" aria-current="page" href="./index.html">Tienda</a>
+                  <!--<a id="verCarrito" class="nav-link nav__li__estilo h5" aria-current="page" href="">Ver Carrito</a>-->
+                  <p id="verCarrito" class="nav-link nav__li__estilo h5">Ver Carrito</p>
+                 <a class="nav-link nav__li__estilo h5" href="sobremi.html">Sobre mi</a>
+                  <a class="nav-link nav__li__estilo h5 active" href="servicios.html">Servicios</a>
+                  <a class="nav-link nav__li__estilo h5" href="portfolio.html">Portfolio</a>
+                  <a class="nav-link nav__li__estilo h5" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div id="contenedorProductos" class="divCard">
+    </div>
+    <div id="contenedorCarrito" class="divCard">
+    </div>
+    
+        <section class="column" style="padding-top: 50px;">
+        <div class="d-flex justify-content-center">
+            <p class="h1 servicios__title">ARTÍCULOS DE CEPILLERÍA</p>
+        </div>
+        <div class="d-flex justify-content-around servicios__container">
+            <div class="column servicios__textcontainer">
+                <p class="h2">ESCOBA - $290 | </p>
+                <a href=""><button type="button" class="btn btn-outline-dark home__boton__estilo btnAlCarrito">AGREGAR AL CARRITO</button></a>
+            </div>
+            <img src="./img/escoba.jpg" alt="gastro6" class="img__servicios">
+        </div>
+        <div class="d-flex justify-content-around servicios__container">
+            <img src="./img/barrendero.jpg" alt="edit1" class="img__servicios">
+            <div class="servicios__textcontainer">
+                <p class="h2">BARRENDERO - $450 | </p>
+                <a href=""><button type="button" class="btn btn-outline-dark home__boton__estilo btnAlCarrito">AGREGAR AL CARRITO</button></a>
+            </div>  
+        </div>
+        <div class="d-flex justify-content-around servicios__container">
+            <div class="servicios__textcontainer">
+                <p class="h2">ANDEN - $500 | </p>
+                <a href=""><button type="button" class="btn btn-outline-dark home__boton__estilo btnAlCarrito">AGREGAR AL CARRITO</button></a>
+            </div>
+            <img src="./img/anden.jpg" alt="look4" class="img__servicios">
+        </div>
+        <div class="d-flex justify-content-around servicios__container">
+            <img src="./img/lavacamion.jpeg" alt="edit1" class="img__servicios">
+            <div class="servicios__textcontainer">
+                <p class="h2">LAVACAMION - $400 | </p>
+                <a href=""><button type="button" class="btn btn-outline-dark home__boton__estilo btnAlCarrito">AGREGAR AL CARRITO</button></a>
+            </div>  
+        </div>
+        <div class="d-flex justify-content-around servicios__container">
+            <div class="servicios__textcontainer">
+                <p class="h2">PINCEL - $190 | </p>
+                <a href=""><button type="button" class="btn btn-outline-dark home__boton__estilo btnAlCarrito">AGREGAR AL CARRITO</button></a>
+            </div>
+            <img src="./img/pincel.jpg" alt="proy2" class="img__servicios">
+        </div>
+         
+    </section>
+    
+    <footer>
+        <nav class="navbar fixed-bottom navbar-light bg-light contenedor__footer">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img src="./img/logoer.png" alt="logoinstagram" class="foot__logo"></a>
+            </div>
+          </nav>
+    </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="./terceraEntregaJS.js"></script>
+</body>
+
+
+</html>

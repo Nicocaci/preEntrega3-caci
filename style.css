@@ -1,0 +1,66 @@
+.servicios__background {
+    background-image: url(./img/fotocepillos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; }
+  
+.logo__size {
+    width: 45%;
+    height: auto; }
+
+.contenedor__nav, .contenedor__footer {
+    background-color: grey;
+    opacity: 0.6; }
+.nav__li__estilo {
+        font-family: "poppinsextralight", sans-serif;
+        font-size: 50px;
+        font-style: bold;
+        color: darkgray; }
+
+.servicios__title {
+    font-family: "Poppins", sans-serif;
+    font-size: 250%;
+    font-style: bold;
+    background-color: #e8e8e8;
+    opacity: 0.9;
+    margin-top: 100px; }
+
+    .item__title {
+        font-family: "Poppins", sans-serif;
+        font-size: 200%;
+        font-style: bold;
+        background-color: #e8e8e8;
+        opacity: 0.9;
+        margin-top: 100px; }
+      
+      .servicios__container {
+        background-color: #e8e8e8;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        opacity: 0.9; }
+      
+      .servicios__textcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      
+      .servicios__text {
+        font-family: "Poppins", sans-serif;
+        font-size: 250%;
+        font-style: bold; }
+      
+      .img__servicios {
+        width: 30%;
+        height: auto; }
+
+.imgCard{
+  width: 20%;
+  height: auto;
+}
+
+.divCard{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
